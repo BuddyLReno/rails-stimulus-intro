@@ -1,24 +1,23 @@
-# README
+# Rails ❤️ Stimulus JS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is used to work through the related video course 
 
-Things you may want to cover:
+## _The course is currently under construction. Instructions on how to take the course will be available here when it is complete._
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+Some working knowledge of the following technologies:
+- Javascript (ES6+)
+- Ruby on Rails
+- Asynchronus javascript requests
 
-* Configuration
+## Course Topics
 
-* Database creation
+This course intends to give you a cursory, starting foundation to working with Stimulus JS in Rails. The concepts covered in the course should be easily transportable to non-Rails sites as the focus will be on Stimulus JS itself.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Installing Stimulus
+- Creating your first controller
+- Setting up actions (click, blur, etc.)
+- Working with targets (DOM nodes)
+- The Stimulus lifecycle.
+- Creating custom events to communicate between controllers
