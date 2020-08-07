@@ -1,14 +1,2 @@
 <%= link_to "🔙 All Stories", short_stories_path %>
-<section class="Card">
-  <h1 class="Card-title">Write a Short Story</h1>
-  <p class="Card-description">Your story can be as long or as short as you'd like!</p>
-  <%= simple_form_for @short_story do |form| %>
-    <%= form.input :title, input_html: { class: "Card-input" } %>
-    <%= form.input :story_text, as: :text, input_html: {
-      class: "Card-textarea"
-    } %>
-    <div class="Card-actionsArea">
-      <%= form.submit "Save", disable_with: 'Saving...' %>
-    </div>
-  <% end %>
-</section>
+<%= render "short_story_form" %>
