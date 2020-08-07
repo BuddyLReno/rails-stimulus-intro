@@ -1,0 +1,3 @@
+class ShortStory < ApplicationRecord
+  
+end

@@ -1,0 +1,10 @@
+<%= link_to "New Story", new_short_story_path %>
+<% if @short_stories.empty? %>
+<p>No stories. Create one!</p>
+<% else %>
+<ul>
+  <% @short_stories.each do |story| %>
+  <li><%= link_to story.title, edit_short_story_path(story.id) %></li>
+  <% end %>
+</ul>
+<% end %>
