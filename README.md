@@ -20,4 +20,5 @@ This course intends to give you a cursory, starting foundation to working with S
 - Setting up actions (click, blur, etc.)
 - Working with targets (DOM nodes)
 - The Stimulus lifecycle.
+- Connecting to a rails form.
 - Creating custom events to communicate between controllers
