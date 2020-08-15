@@ -12,6 +12,10 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@testing-library/dom": "^7.22.2",
+    "@testing-library/user-event": "^12.1.1",
+    "jest": "^26.4.0",
+    "mutationobserver-shim": "^0.3.7",
     "tailwindcss": "^1.6.2",
     "webpack-dev-server": "^3.11.0"
   }
