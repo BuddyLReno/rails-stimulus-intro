@@ -9,6 +9,7 @@ html {
 
 Body {
   padding: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .Card {
@@ -49,6 +50,19 @@ Body {
     margin-top: scut-rem(24);
     padding-top: scut-rem(16);
     border-top: scut-rem(2) solid lighten($color: gray, $amount: 20%);
+  }
+
+  &-successMessage {
+    background-color: #35bd59;
+    color: white;
+    font-weight: 600;
+    padding: scut-rem(8 12);
+    border-radius: scut-rem(4);
+    display: none;
+
+    &.show {
+      display: block;
+    }
   }
 }
 
