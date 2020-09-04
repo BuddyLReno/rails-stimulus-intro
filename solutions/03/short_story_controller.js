@@ -38,10 +38,6 @@ export default class ShortStoryController extends Controller {
   }
 
   connect() {
-    this.initFormState();
-  }
-
-  initFormState() {
     this.previousTitle = this.title;
     this.previousStory = this.storyText;
     this.disableForm = true;
