@@ -1,9 +1,8 @@
 <section class="Card" 
-  data-controller="short-story"
-  data-action="keyup->short-story#validateForm">
+  data-controller="short-story">
   <h1 class="Card-title">Write a Short Story</h1>
   <p class="Card-description">Your story can be as long or as short as you'd like!</p>
-  <%= simple_form_for @short_story do |form| %>
+  <%= simple_form_for @short_story, data: { action: "keyup->short-story#validateForm" } do |form| %>
     <%= form.input :title, 
       input_html: { 
         class: "Card-input",
