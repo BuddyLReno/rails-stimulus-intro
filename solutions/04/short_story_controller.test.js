@@ -88,15 +88,6 @@ describe('ShortStoryController', () => {
       expect(document.dispatchEvent.mock.calls[0][0].type).toBe(
         'shortStoryForm:success'
       );
-    });
-
-    test('shortStoryForm:success event passes along data from server', () => {
-      const event = new CustomEvent('ajax:success', {
-        detail: [{ someKey: 'someValue', status: 200 }]
-      });
-      const form = getByTestId(document.body, 'form');
-      document.dispatchEvent = jest.fn();
-      fireEvent(form, event);
       expect(document.dispatchEvent.mock.calls[0][0].detail).toEqual({
         someKey: 'someValue',
         status: 200

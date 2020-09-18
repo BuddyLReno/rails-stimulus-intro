@@ -58,7 +58,5 @@ describe('ShortStoryController', () => {
     test.todo('adds show class to successMessage');
 
     test.todo('emits a shortStoryForm:success event');
-
-    test.todo('shortStoryForm:success event passes along data from server');
   });
 });
