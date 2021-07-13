@@ -56,7 +56,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     bindex (0.8.1)
     bootsnap (1.4.8)
@@ -214,7 +214,7 @@ DEPENDENCIES
   listen (~> 3.2)
   pry-rails
   puma (~> 4.1)
-  rails (~> 6.0.3, >= 6.0.3.3)
+  rails (~> 6.0.3, >= 6.0.3.2)
   sass-rails (>= 6)
   selenium-webdriver
   simple_form
