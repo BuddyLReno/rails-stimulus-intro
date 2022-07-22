@@ -181,7 +181,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     web-console (4.0.4)
       actionview (>= 6.0.0)
@@ -214,7 +214,7 @@ DEPENDENCIES
   listen (~> 3.2)
   pry-rails
   puma (~> 4.1)
-  rails (~> 6.0.3, >= 6.0.3.3)
+  rails (~> 6.0.3, >= 6.0.3.2)
   sass-rails (>= 6)
   selenium-webdriver
   simple_form
